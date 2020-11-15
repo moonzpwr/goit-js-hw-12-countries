@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(177, 126, 126);
+}
+
+.contries-cards {
+  /* display: flex; */
+}
+.info {
+  margin-right: 30px;
+  text-align: left;
+}
+.country-list li {
+  text-align: left;
+}
+.country-list {
+  display: inline-block;
+}
+
+.error {
+  /* border: 1px solid black; */
+  /* display: inline-block; */
+  position: absolute;
+  display: inline-flex;
+}
