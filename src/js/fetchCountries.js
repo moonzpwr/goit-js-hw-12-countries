@@ -17,10 +17,9 @@ function fetchCountries(searchQuery) {
 };
  
 function onError(message) { 
-    const errorMassege = error({
+    return  error({
             text: `${message}`,
     });
-    return errorMassege
 }
 
 export default { fetchCountries, onError };
